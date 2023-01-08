@@ -1,0 +1,18 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "Instagram Active User Notifier",
+  "description": "Sends a notification when a user is active on Instagram",
+  "version": "1.0",
+  "permissions": [
+    "https://www.instagram.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  }
+}
